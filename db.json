@@ -1,0 +1,51 @@
+{
+  "dough": [
+    { "id": 1, "name": "Тонкое", "description": "Хрустящее итальянское тесто", "price": 0 },
+    { "id": 2, "name": "Толстое", "description": "Пышное традиционное тесто", "price": 50 }
+  ],
+  "sizes": [
+    { "id": 1, "name": "23 см", "multiplier": 1 },
+    { "id": 2, "name": "32 см", "multiplier": 1.5 },
+    { "id": 3, "name": "45 см", "multiplier": 2 }
+  ],
+  "sauces": [
+    { "id": 1, "name": "Томатный", "price": 0 },
+    { "id": 2, "name": "Сливочный", "price": 30 },
+    { "id": 3, "name": "Острый", "price": 20 }
+  ],
+  "ingredients": [
+    { "id": 1, "name": "Моцарелла", "price": 50, "category": "cheese" },
+    { "id": 2, "name": "Чеддер", "price": 60, "category": "cheese" },
+    { "id": 3, "name": "Пармезан", "price": 70, "category": "cheese" },
+    { "id": 4, "name": "Пепперони", "price": 80, "category": "meat" },
+    { "id": 5, "name": "Бекон", "price": 90, "category": "meat" },
+    { "id": 6, "name": "Ветчина", "price": 75, "category": "meat" },
+    { "id": 7, "name": "Курица", "price": 70, "category": "meat" },
+    { "id": 8, "name": "Грибы", "price": 40, "category": "vegetable" },
+    { "id": 9, "name": "Оливки", "price": 45, "category": "vegetable" },
+    { "id": 10, "name": "Томаты", "price": 35, "category": "vegetable" },
+    { "id": 11, "name": "Перец", "price": 30, "category": "vegetable" },
+    { "id": 12, "name": "Лук", "price": 25, "category": "vegetable" },
+    { "id": 13, "name": "Ананас", "price": 55, "category": "vegetable" },
+    { "id": 14, "name": "Халапеньо", "price": 40, "category": "vegetable" },
+    { "id": 15, "name": "Руккола", "price": 35, "category": "vegetable" }
+  ],
+  "extras": [
+    { "id": 1, "name": "Cola 0.5л", "price": 80 },
+    { "id": 2, "name": "Сок апельсиновый", "price": 90 },
+    { "id": 3, "name": "Чесночный хлеб", "price": 120 },
+    { "id": 4, "name": "Картофель фри", "price": 100 }
+  ],
+  "orders": [],
+  "addresses": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "Тестовый пользователь",
+      "email": "user@example.com",
+      "password": "password123",
+      "phone": "+7 900 000-00-00",
+      "avatar": ""
+    }
+  ]
+}
