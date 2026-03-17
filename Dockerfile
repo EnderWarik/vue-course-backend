@@ -2,7 +2,7 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-RUN npm install -g json-server@1
+RUN npm install -g json-server
 
 COPY db.json /app/db.json
 
